@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API = "http://localhost:5001/api/events";
+const API = "https://event-admin-backend.onrender.com/api/events";
 
 function Dashboard() {
   const [events, setEvents] = useState([]);
